@@ -480,7 +480,6 @@ require_relative "../models/instructor"
 
 require_relative "../db/connection.rb"
 
-
 Instructor.destroy_all
 Student.destroy_all
 # destroys existing data in database
@@ -491,6 +490,12 @@ robin.students.create(first_name: "Michael", last_name: "Scott", age: 45, job: "
 robin.students.create(first_name: "Dwight", last_name: "Schrute", age: 34, job: "Assistant to the Regional Manager")
 adam.students.create(first_name: "Dee", last_name: "Reynolds", age: 32, job: "Bartender")
 adam.students.create(first_name: "Charlie", last_name: "Kelly", age: 31, job: "Owner of Paddy's")
+```
+
+Also, be sure to require the `seeds.rb` file in our `app.rb`
+
+```ruby
+require_relative "../db/seeds.rb"
 ```
 
 Now when we run our application with `ruby app.rb`, we enter into Pry with all our data loaded.
