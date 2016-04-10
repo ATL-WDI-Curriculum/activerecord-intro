@@ -420,6 +420,9 @@ Basically when we added those two lines of code `has_many :students` `belongs_to
 Lets create some objects so we can see what were talking about:
 
 ```ruby
+# Remember to run the following to reset the db
+# $ psql -d wdi_db < db/wdi_schema.sql
+
 jesse = Instructor.create(first_name: "Jesse", last_name: "Shawl", age: 26)
 adrian = Instructor.create(first_name: "Adrian", last_name: "Maseda", age: 28)
 
