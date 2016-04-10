@@ -218,7 +218,7 @@ puts "end of application"
 
 ### Functionality - Tunr (You Do - 30 / 110)
 
-[Part 1.1 & 1.2 - Define Artist & Setup Your `app.rb` to Connect The Database](https://github.com/ga-wdi-exercises/tunr-active-record#part-11---create-the-artist-model-using-active-record)
+[Part 1.1 & 1.2 - Define Artist & Setup Your `app.rb` to Connect The Database](https://github.com/ATL-WDI-Exercises/tunr-active-record/blob/master/readme.md#part-11---create-the-artist-model-using-active-record)
 
 [solution code](https://github.com/ga-wdi-exercises/tunr-active-record/archive/v1.1.zip)
 
@@ -315,7 +315,13 @@ george.destroy
 
 ### Methods - Tunr (You Do (In Pry!) - 15 / 155)
 
-[Part 1.3 - Use Your Artist Model](https://github.com/ga-wdi-exercises/tunr-active-record#part-13---use-your-artist-model)
+Remember to seed your Tunr database before walking though Part 1.3
+
+```bash
+$ psql -d tunr_db < db/seeds.sql
+```
+
+[Part 1.3 - Use Your Artist Model](https://github.com/ATL-WDI-Exercises/tunr-active-record/blob/master/readme.md#part-13---use-your-artist-model)
 
 ## Associations
 
@@ -399,7 +405,7 @@ require_relative "models/instructor"
 
 ### Updating Class Definitions - Tunr (You Do - 5 / 200)
 
-[Part 1.4 - Create Your Song Model / Setup Associations](https://github.com/ga-wdi-exercises/tunr-active-record#part-14---create-your-song-model--setup-associations)
+[Part 1.4 - Create Your Song Model / Setup Associations](https://github.com/ATL-WDI-Exercises/tunr-active-record/blob/master/readme.md#part-14---create-your-song-model--setup-associations)
 
 [solution code](https://github.com/ga-wdi-exercises/tunr-active-record/archive/v1.2.zip)
 
@@ -459,7 +465,7 @@ jesse.students.create(first_name: "baskin", last_name: "robbins", age: 34, job: 
 
 ### Association Helper Methods - Tunr (You Do - 15 / 255)
 
-[Part 1.5 - Use Your Model Assocations](https://github.com/ga-wdi-exercises/tunr-active-record#part-15---use-your-model-associations)
+[Part 1.5 - Use Your Model Assocations](https://github.com/ATL-WDI-Exercises/tunr-active-record/blob/master/readme.md#part-15---use-your-model-associations)
 
 ### Seeding a Database - WDI (15 / 270)
 Seeding a database is not all that different from the things we've been doing today. What's the purpose of seed data? **(ST-WG)**
