@@ -504,7 +504,7 @@ adam.students.create(first_name: "Charlie", last_name: "Kelly", age: 31, job: "O
 Also, be sure to require the `seeds.rb` file in our `app.rb`
 
 ```ruby
-require_relative "../db/seeds.rb"
+require_relative "db/seeds"
 ```
 
 Now when we run our application with `ruby app.rb`, we enter into Pry with all our data loaded.
